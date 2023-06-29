@@ -1,122 +1,459 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Anna Damasceno</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        <link rel="stylesheet" href="assets/css/main.css">
-    </head>
-    <body class="is-preload">
 
-        <!-- Nav -->
-        <nav id="nav">
-            <ul class="container">
-                <li><a href="#top">Topo</a></li>
-                <li><a href="#portfolio">Projetos</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Anna Damasceno, Desenvolvedora Web</title>
 
-        <!-- Top -->
-        <article id="top" class="wrapper style1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 col-5-large col-12-medium">
-                        <span class="image fit"><img src="assets/images/1654619187583.jpg" alt="Eu!"></span>
-                    </div>
-                    <div class="col-8 col-7-large col-12-medium">
-                        <header>
-                            <h1>Oi. Sou a <strong>Anna</strong>.</h1>
-                        </header>
-                        <p>Desenvolvo de forma <strong>simples</strong> e <strong>rápida</strong>, com HTML, CSS e JavaScript, sites <span class="underline">acessíveis</span>, <span class="underline">responsivos</span> e <span class="underline">descomplicados</span>.</p>
-                        <a href="#portfolio" class="button large scrolly">Veja alguns dos meus projetos</a>
-                    </div>
+    <meta name="description"
+        content="Transformo suas ideias de site em realidade. Crio sites pessoais ou institucionais de forma simples e rápida, com HTML5, CSS3 e JavaScript, páginas acessíveis, responsivas e descomplicadas.">
+    <meta name="theme-color" content="#fe4d24">
+    <meta name="author" content="Anna Carolina Damasceno">
+    <meta name="creator" content="Anna Carolina Damasceno">
+    <meta name="keywords"
+        content="Anna Damasceno, Anna Carolina Damasceno, web dev, desenvolvimento de site, criação de site, site responsivo, site rápido, site simples, site pessoal, site institucional, site barato, site acessível">
+
+    <meta http-equiv="content-language" content="pt-br">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta property="og:title" content="Anna Damasceno, Desenvolvedora Web.">
+    <meta property="og:site_name" content="Anna Damasceno, Desenvolvedora Web.">
+    <meta property="og:url" content="https://annacarolinadamasceno.github.io">
+    <meta property="og:description"
+        content="Transformo suas ideias de site em realidade. Crio sites pessoais ou institucionais de forma simples e rápida, com HTML5, CSS3 e JavaScript, páginas acessíveis, responsivas e descomplicadas.">
+    <meta property="og:image" content="https://annacarolinadamasceno.github.io/images/logo-1200x630.png">
+    <meta property="og:image:secure_url" content="https://annacarolinadamasceno.github.io/images/logo-1200x630.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:imageimage:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Imagem de Anna Carolina Damasceno">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="annacarolinadamasceno.github.io">
+    <meta property="twitter:url" content="https://annacarolinadamasceno.github.io">
+    <meta name="twitter:title" content="Anna Damasceno, Desenvolvedora Web.">
+    <meta name="twitter:description"
+        content="Transformo suas ideias de site em realidade. Crio sites pessoais ou institucionais de forma simples e rápida, com HTML5, CSS3 e JavaScript, páginas acessíveis, responsivas e descomplicadas.">
+    <meta name="twitter:image" content="https://annacarolinadamasceno.github.io/images/logo-1200x630.png">
+    <meta name="twitter:image:src" content="https://annacarolinadamasceno.github.io/images/logo-1200x630.png">
+    <meta name="twitter:image:alt" content="Anna Carolina Damasceno">
+    <meta name="twitter:creator" content="@damasannac">
+
+    <link rel="canonical" href="https://annacarolinadamasceno.github.io">
+
+    <!-- Favicon-->
+    <link href="images/favicon.png" rel="icon">
+    <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" rel="stylesheet"
+        integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ"
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css" rel="stylesheet"
+        integrity="sha512-N2IsWuKsBYYiHNYdaEuK4eaRJ0onfUG+cdZilndYaMEhUGQq/McsFU75q3N+jbJUNXm6O+K52DRrK+bSpBGj0w"
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Mobile nav toggle button -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="d-flex flex-column">
+
+            <div class="profile">
+                <img src="images/profile-img.jpg" alt="Anna Carolina Damasceno" class="img-fluid rounded-circle">
+                <h1 class="text-light"><a href="index.html">Anna Damasceno</a></h1>
+                <div class="social-links mt-3 text-center">
+                    <a target="_blank" href="http://wa.me/5591992950722" class="whatsapp">
+                        <i class="bx bxl-whatsapp"></i>
+                    </a>
+                    <a target="_blank" href="https://linkedin.com/in/annacarolinadamasceno" class="linkedin">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/annacarolinadamasceno" class="github">
+                        <i class="bx bxl-github"></i>
+                    </a>
                 </div>
             </div>
-        </article>
 
-        <!-- Portfolio -->
-        <article id="portfolio" class="wrapper style2">
+            <nav id="navbar" class="nav-menu navbar">
+                <ul>
+                    <li>
+                        <a href="#hero" class="nav-link scrollto active">
+                            <i class="bx bx-home"></i>
+                            <span>Topo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link scrollto">
+                            <i class="bx bx-user"></i>
+                            <span>Sobre</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link scrollto">
+                            <i class="bx bx-book-content"></i>
+                            <span>Portfólio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link scrollto">
+                            <i class="bx bx-envelope"></i>
+                            <span>Contato</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav><!-- .nav-menu -->
+        </div>
+    </header><!-- End Header -->
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-container" data-aos="fade-in">
+            <h1>Anna Damasceno</h1>
+            <p><span class="typed" data-typed-items="Desenvolvedora, Freelancer, Programadora, Web Developer"></span>
+            </p>
+        </div>
+    </section><!-- End Hero Section -->
+
+    <main id="main">
+
+        <!-- About Section -->
+        <section id="about" class="about">
             <div class="container">
-                <header>
-                    <h2>Projetos recentes.</h2>
-                    <p>Propostas modernas de sites responsivos, inteligentes e personalizáveis.</p>
-                </header>
-                <div class="row">
-                    <div class="col-4 col-6-medium col-12-small">
-                        <article class="box style2">
-                            <a href="https://annacarolinadamasceno.github.io/altemiradvocacia/" target="_blank" class="image featured"><img src="assets/images/pic01.jpg" alt=""></a>
-                            <h3><a href="https://annacarolinadamasceno.github.io/altemiradvocacia/">Altemir Damasceno</a></h3>
-                            <p>Advocacia e Consultoria Jurídica.</p>
-                        </article>
-                    </div>
-                    <div class="col-4 col-6-medium col-12-small">
-                        <article class="box style2">
-                            <a href="https://annacarolinadamasceno.github.io/estudiofilipestorch/" class="image featured"><img src="assets/images/pic02.jpg" alt=""></a>
-                            <h3><a href="https://annacarolinadamasceno.github.io/estudiofilipestorch/">Filipe Storch</a></h3>
-                            <p>Arquitetura e Interiores.</p>
-                        </article>
-                    </div>
-                    <div class="col-4 col-6-medium col-12-small">
-                        <article class="box style2">
-                            <a href="https://annacarolinadamasceno.github.io/estherlanches/" target="_blank" class="image featured"><img src="assets/images/pic03.jpg" alt=""></a>
-                            <h3><a href="https://annacarolinadamasceno.github.io/estherlanches/">Esther Lanches</a></h3>
-                            <p>Lanchonete.</p>
-                        </article>
-                    </div>
-                    <div class="col-4 col-6-medium col-12-small">
-                        <article class="box style2">
-                            <a href="https://annacarolinadamasceno.github.io/upfit/" target="_blank" class="image featured"><img src="assets/images/pic04.jpg" alt=""></a>
-                            <h3><a href="https://annacarolinadamasceno.github.io/upfit/">Up Fit Academia</a></h3>
-                            <p>Academia e Centro Esportivo.</p>
-                        </article>
-                    </div>
-                </div>
-                <footer>
-                    <p>Gostou especialmente de algum projeto?</p>
-                    <a href="#contact" class="button large scrolly">Entre em contato</a>
-                </footer>
-            </div>
-        </article>
 
-        <!-- Contact -->
-        <article id="contact" class="wrapper style4">
-            <div class="container medium">
-                <header>
-                    <h2>WhatsApp:</h2>
-                </header>
-                <div class="row">
-                    <div class="col-12">
-                        <a href="http://wa.me/5591992950722" class="button large">+55 (91) 9 9295-0722</a>
-					</div>
-                    <div class="col-12">
-                        <hr>
-                        <h3>Também:</h3>
-                        <ul class="social">
-                            <li>
-                                <a href="https://twitter.com/damasannac" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-                            <li><a href="https://linkedin.com/in/annacarolinadamasceno" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
-                            <li><a href="https://github.com/annacarolinadamasceno" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+                <div class="section-title">
+                    <h2>Sobre</h2>
+                    <p>
+                        Desenvolvedora web apaixonada por transformar ideias em realidade! Com experiência em criar
+                        sites pessoais ou institucionais, desenvolvo de forma
+                        <strong>simples</strong> e
+                        <strong>rápida</strong>,
+                        com HTML5, CSS3 e JavaScript, páginas
+                        <span class="text-decoration-underline">acessíveis</span>,
+                        <span class="text-decoration-underline">responsivas</span> e
+                        <span class="text-decoration-underline">descomplicadas</span> através de uma experiência
+                        personalizada e por um
+                        preço justo.
+                        Seu site frequentemente será a primeira impressão que seus clientes terão,
+                        portanto, é melhor se certificar de que seja uma boa impressão. Dá uma olhada no meu
+                        <a href="#portfolio" class="bg-body-secondary scrollto">portfólio</a> e
+                        se você achar que o meu trabalho combina com o seu,
+                        <a href="#contact" class="bg-body-secondary scrollto">envia uma mensagem pra mim</a>!
+                    </p>
+                </div>
+
+            </div>
+        </section><!-- End About Section -->
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Habilidades</h2>
+                    <p>As habilidades, ferramentas e tecnologias que uso para dar vida aos produtos:</p>
+                </div>
+
+                <div class="skills-content">
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bxl-html5"></i> HTML5</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bxl-css3"></i> CSS3</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bxl-javascript"></i> JavaScript</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bxl-bootstrap"></i> Bootstrap</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bxl-wordpress"></i> WordPress</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bxl-git"></i> Git</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bxl-github"></i> GitHub</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bx-search"></i> SEO</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bx-cog"></i> API REST</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bx-devices"></i> Responsividade</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bx-accessibility"></i>
+                        Acessibilidade</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bxl-visual-studio"></i> Visual
+                        Studio</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bx-terminal"></i> Terminal</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bx-heart"></i> Amor</span>
+                    <span class="btn btn-primary btn-dark mb-1 me-1"><i class="bx bx-coffee"></i> Café</span>
+                </div>
+
+            </div>
+        </section><!-- End Skills Section -->
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Projetos</h2>
+                    <p>
+                        Aqui estão alguns dos últimos projetos nos quais adorei trabalhar.
+                        Dá uma olhada e vamos conversar sobre também transformar o <strong>seu</strong> projeto em
+                        realidade.
+                        <a href="#contact" class="bg-body-secondary scrollto">Entra em contato!</a>
+                    </p>
+                </div>
+
+                <div class="row" data-aos="fade-up">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">Todos</li>
+                            <li data-filter=".filter-onepage">Página Única</li>
+                            <li data-filter=".filter-multipage">Multi Página</li>
+                            <li data-filter=".filter-wordpress">WordPress</li>
                         </ul>
-                        <hr>
                     </div>
                 </div>
-                <footer>
-                    <ul id="copyright">
-                        <li>Todos os direitos reservados.</li>
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                    </ul>
-                </footer>
+
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-onepage filter-wordpress">
+                        <div class="portfolio-wrap">
+                            <img src="images/portfolio/portfolio-1.jpg" class="img-fluid"
+                                alt="Quinta Tour, Agência de Turismo. Site de página única feito em WordPress.">
+                            <div class="portfolio-links">
+                                <a href="images/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox"
+                                    title="Quinta Tour, Agência de Turismo. Site de página única feito em WordPress."><i
+                                        class="bx bx-search-alt"></i></a>
+                                <a target="_blank" href="https://quintatour.com.br/" title="Quinta Tour"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-onepage">
+                        <div class="portfolio-wrap">
+                            <img src="images/portfolio/portfolio-2.jpg" class="img-fluid"
+                                alt="Altemir Damasceno, Escritório de Advocacia e Consultoria Jurídica. Site de página única feito com Bootstrap e Font Awesome.">
+                            <div class="portfolio-links">
+                                <a href="images/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox"
+                                    title="Altemir Damasceno, Escritório de Advocacia e Consultoria Jurídica. Site de página única feito com Bootstrap e Font Awesome."><i
+                                        class="bx bx-search-alt"></i></a>
+                                <a target="_blank" href="https://annacarolinadamasceno.github.io/altemiradvocacia/"
+                                    title="Altemir Damasceno"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-onepage">
+                        <div class="portfolio-wrap">
+                            <img src="images/portfolio/portfolio-3.jpg" class="img-fluid"
+                                alt="Filipe Storch, Arquitetura e Interiores. Site de página única feito com W3.CSS.">
+                            <div class="portfolio-links">
+                                <a href="images/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox"
+                                    title="Filipe Storch, Arquitetura e Interiores. Site de página única feito com W3.CSS."><i
+                                        class="bx bx-search-alt"></i></a>
+                                <a target="_blank" href="https://annacarolinadamasceno.github.io/estudiofilipestorch/"
+                                    title="Filipe Storch"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-onepage">
+                        <div class="portfolio-wrap">
+                            <img src="images/portfolio/portfolio-4.jpg" class="img-fluid"
+                                alt="Esther Lanches, Lanchonete. Site de página única feito com W3.CSS e JavaScript.">
+                            <div class="portfolio-links">
+                                <a href="images/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox"
+                                    title="Esther Lanches, Lanchonete. Site de página única feito com W3.CSS e JavaScript."><i
+                                        class="bx bx-search-alt"></i></a>
+                                <a target="_blank" href="https://annacarolinadamasceno.github.io/estherlanches/"
+                                    title="Esther Lanches"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-multipage">
+                        <div class="portfolio-wrap">
+                            <img src="images/portfolio/portfolio-5.jpg" class="img-fluid"
+                                alt="Up Fit, Academia e Centro Esportivo. Site de múltiplas páginas feito com Bootstrap.">
+                            <div class="portfolio-links">
+                                <a href="images/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox"
+                                    title="Up Fit, Academia e Centro Esportivo. Site de múltiplas páginas feito com Bootstrap."><i
+                                        class="bx bx-search-alt"></i></a>
+                                <a target="_blank" href="https://annacarolinadamasceno.github.io/upfit/"
+                                    title="Upfit Academia"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-multipage">
+                        <div class="portfolio-wrap">
+                            <img src="images/portfolio/portfolio-6.jpg" class="img-fluid"
+                                alt="Sete, Estudio Educacional. Site de múltiplas páginas feito com Bootstrap.">
+                            <div class="portfolio-links">
+                                <a href="images/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox"
+                                    title="Sete, Estudio Educacional. Site de múltiplas páginas feito com Bootstrap."><i
+                                        class="bx bx-search-alt"></i></a>
+                                <a target="_blank" href="https://seteeducacional.com.br/" title="Sete Educacional"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-onepage">
+                        <div class="portfolio-wrap">
+                            <img src="images/portfolio/portfolio-7.jpg" class="img-fluid"
+                                alt="Meu próprio site! Site de múltiplas páginas feito principalmente com muito amor!">
+                            <div class="portfolio-links">
+                                <a href="images/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox"
+                                    title="Meu próprio site! Site de múltiplas páginas feito principalmente com muito amor!"><i
+                                        class="bx bx-search-alt"></i></a>
+                                <a target="_blank" href="https://annacarolinadamasceno.github.io/"
+                                    title="Anna Carolina Damasceno"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-        </article>
+        </section><!-- End Portfolio Section -->
 
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
 
-    </body>
+                <div class="section-title">
+                    <h2>Contato</h2>
+                    <p>
+                        Vamos falar agora sobre como posso tornar realidade seu projeto de site? Preenche o formulário e
+                        me dá os detalhes ou, se preferir, me envia um <a target="_blank"
+                            href="mailto:annadamasceno.dev@gmail.com" class="bg-body-secondary">e-mail</a> ou uma
+                        mensagem no <a href="http://wa.me/5591992950722" target="_blank" rel="noopener noreferrer"
+                            class="bg-body-secondary">WhatsApp</a>.
+                    </p>
+                </div>
+
+                <div class="row" data-aos="fade-in">
+
+                    <div class="col-lg-5 d-flex align-items-stretch">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Localização:</h4>
+                                <p>O mundo todo! Eu trabalho remoto!</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>E-mail:</h4>
+                                <p>
+                                    <a target="_blank"
+                                        href="mailto:annadamasceno.dev@gmail.com">annadamasceno.dev@gmail.com</a>
+                                </p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-whatsapp"></i>
+                                <h4>WhatsApp:</h4>
+                                <p>
+                                    <a href="http://wa.me/5591992950722" target="_blank" rel="noopener noreferrer">+55
+                                        (91) 9 9295-0722</a>
+                                </p>
+                            </div>
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d56069552.33416632!2d-60.09366310160042!3d30.936590331022778!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1687445668045!5m2!1spt-BR!2sbr"
+                                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                        <form action="https://api.staticforms.xyz/submit" method="post" role="form"
+                            class="php-email-form">
+                            <input type="hidden" name="accessKey" value="f7ca3baf-ea93-477f-8dd7-fce830c8d49f">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="name">Nome:</label>
+                                    <input type="text" name="name" class="form-control" id="name" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="name">E-mail:</label>
+                                    <input type="email" class="form-control" name="replyTo" id="email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Assunto:</label>
+                                <input type="text" class="form-control" name="subject" id="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Mensagem</label>
+                                <textarea class="form-control" name="message" rows="10" required></textarea>
+                            </div>
+                            <input type="hidden" name="redirectTo"
+                                value="https://annacarolinadamasceno.github.io/thank-you">
+                            <input type="text" name="honeypot" style="display: none;">
+                            <div class="text-center"><button type="submit">Enviar</button></div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Contact Section -->
+
+    </main><!-- End Main -->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                Todos os direitos reservados.
+            </div>
+            <div class="credits">
+                Tema: <strong><span>iPortfolio</span></strong>, por <a
+                    href="https://bootstrapmade.com/">BootstrapMade</a>.
+            </div>
+            <div class="credits">
+                Editador com ❤️ e hospedado no <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"
+        integrity="sha512-S/H9RQ6govCzeA7F9D0m8NGfsGf0/HjJEiLEfWGaMCjFzavo+DkRbYtZLSO+X6cZsIKQ6JvV/7Y9YMaYnSGnAA"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+        integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"
+        integrity="sha512-h5Vv+n+z0eRnlJoUlWMZ4PLQv4JfaCVtgU9TtRjNYuNltS5QCqi4D4eZn4UkzZZuG2p4VBz3YIlsB7A2NVrbww"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
+        integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts/main.js"></script>
+
+</body>
+
 </html>
